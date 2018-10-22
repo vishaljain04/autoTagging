@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title> DISPLAYING TABLES </title>
+</head>
+
+<body>
+    <h2> Displaying tables </h2>
+    <br> <br>
+
+    <form name = "f1" method = "POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type = "submit" value = "submit"> Submit</button>
+    </form>
+
+    <!-- <script language = "javascript" type = "text/javascript">
+    function createCookie()
+    {
+        var blogText = document.getElementById("textfield").value + ';';
+        document.cookie = "name=" + blogText;
+    }
+    </script> -->
+
+</body>
+
+</html>
